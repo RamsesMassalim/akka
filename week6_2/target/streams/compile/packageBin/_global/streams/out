@@ -1,0 +1,13 @@
+[debug] Packaging E:\Ramses\programming\backend_akka\week6_2\target\scala-2.13\week6_2_2.13-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	Calculator$.class
+[debug] 	  E:\Ramses\programming\backend_akka\week6_2\target\scala-2.13\classes\Calculator$.class
+[debug] 	Calculator$delayedInit$body.class
+[debug] 	  E:\Ramses\programming\backend_akka\week6_2\target\scala-2.13\classes\Calculator$delayedInit$body.class
+[debug] 	Calculator.class
+[debug] 	  E:\Ramses\programming\backend_akka\week6_2\target\scala-2.13\classes\Calculator.class
+[debug] 	Main$.class
+[debug] 	  E:\Ramses\programming\backend_akka\week6_2\target\scala-2.13\classes\Main$.class
+[debug] 	Main.class
+[debug] 	  E:\Ramses\programming\backend_akka\week6_2\target\scala-2.13\classes\Main.class
+[debug] Done packaging.

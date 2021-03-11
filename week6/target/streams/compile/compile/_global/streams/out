@@ -1,0 +1,5 @@
+[warn] E:\Ramses\programming\backend_akka\week6\src\main\scala\first_ex\PingManager.scala:16:32: match may not be exhaustive.
+[warn] It would fail on the following input: ListingResponse(_)
+[warn]       Behaviors.receiveMessage {
+[warn]                                ^
+[warn] one warning found
