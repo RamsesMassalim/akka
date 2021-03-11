@@ -27,6 +27,6 @@ class MainCalc extends Actor with ActorLogging {
                 respF pipeTo self
 
             case r: GetResponse =>
-                log.warning(s"Response: $r")
+                log.warning(s"Response: ${r.res}")
         }
 }
