@@ -1,17 +1,7 @@
-import scala.io.StdIn.readLine
 import util.control.Breaks._
 import akka.actor._
-import akka.pattern.{ask, pipe}
-import akka.util.Timeout
 
-import scala.collection._
-import scala.concurrent.duration._
-import scala.concurrent.ExecutionContext.Implicits.global
-
-//case class SetRequest(expr: String)
-//case class GetRequest(res: Double)
-
-object Calculator extends Actor with ActorLogging{
+class Calculator extends Actor with ActorLogging{
   var expr = ""
 
   def name = "calculator"
@@ -20,7 +10,7 @@ object Calculator extends Actor with ActorLogging{
     case r: SetRequest =>
       expr = r.expr
     case r: GetRequest =>
-      sender ! result()
+      sender ! GetResponse(result())
     case r =>
       log.warning(s"Unexpected: $r")
   }
