@@ -1,0 +1,3 @@
+[debug] Copy resource mappings: 
+[debug] 	(E:\Ramses\programming\backend_akka\backend-akka\src\main\resources\application.conf,E:\Ramses\programming\backend_akka\backend-akka\target\scala-2.13\classes\application.conf)
+[debug] 	(E:\Ramses\programming\backend_akka\backend-akka\src\main\resources\logback.xml,E:\Ramses\programming\backend_akka\backend-akka\target\scala-2.13\classes\logback.xml)

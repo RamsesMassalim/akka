@@ -1,0 +1,27 @@
+[debug] Packaging E:\Ramses\programming\backend_akka\backend-akka\target\scala-2.13\backend-akka_2.13-0.1-sources.jar ...
+[debug] Input file mappings:
+[debug] 	application.conf
+[debug] 	  E:\Ramses\programming\backend_akka\backend-akka\src\main\resources\application.conf
+[debug] 	logback.xml
+[debug] 	  E:\Ramses\programming\backend_akka\backend-akka\src\main\resources\logback.xml
+[debug] 	ApiError.scala
+[debug] 	  E:\Ramses\programming\backend_akka\backend-akka\src\main\scala\ApiError.scala
+[debug] 	Boot.scala
+[debug] 	  E:\Ramses\programming\backend_akka\backend-akka\src\main\scala\Boot.scala
+[debug] 	InMemoryTodoRepository.scala
+[debug] 	  E:\Ramses\programming\backend_akka\backend-akka\src\main\scala\InMemoryTodoRepository.scala
+[debug] 	MyRouter.scala
+[debug] 	  E:\Ramses\programming\backend_akka\backend-akka\src\main\scala\MyRouter.scala
+[debug] 	MyServer.scala
+[debug] 	  E:\Ramses\programming\backend_akka\backend-akka\src\main\scala\MyServer.scala
+[debug] 	Todo.scala
+[debug] 	  E:\Ramses\programming\backend_akka\backend-akka\src\main\scala\Todo.scala
+[debug] 	TodoDirectives.scala
+[debug] 	  E:\Ramses\programming\backend_akka\backend-akka\src\main\scala\TodoDirectives.scala
+[debug] 	TodoRepository.scala
+[debug] 	  E:\Ramses\programming\backend_akka\backend-akka\src\main\scala\TodoRepository.scala
+[debug] 	Validator.scala
+[debug] 	  E:\Ramses\programming\backend_akka\backend-akka\src\main\scala\Validator.scala
+[debug] 	ValidatorDirectives.scala
+[debug] 	  E:\Ramses\programming\backend_akka\backend-akka\src\main\scala\ValidatorDirectives.scala
+[debug] Done packaging.

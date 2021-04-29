@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f2eab36-e5ab-48f9-8021-2362bd5cb52c" name="Default Changelist" comment="" />
+    <list default="true" id="1f2eab36-e5ab-48f9-8021-2362bd5cb52c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/week6_2/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/backend_akka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/backend_akka.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week6_2/src/main/scala/Calculator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/week6_2/src/main/scala/Calculator.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week6_2/src/main/scala/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/week6_2/src/main/scala/Main.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week6_2/src/main/scala/MainCalc.scala" beforeDir="false" afterPath="$PROJECT_DIR$/week6_2/src/main/scala/MainCalc.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week6_2/target/scala-2.13/classes/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/week6_2/target/scala-2.13/classes/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week6_2/target/scala-2.13/classes/GetRequest$.class" beforeDir="false" afterPath="$PROJECT_DIR$/week6_2/target/scala-2.13/classes/GetRequest$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week6_2/target/scala-2.13/classes/GetRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/week6_2/target/scala-2.13/classes/GetRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week6_2/target/scala-2.13/classes/GetResponse$.class" beforeDir="false" afterPath="$PROJECT_DIR$/week6_2/target/scala-2.13/classes/GetResponse$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week6_2/target/scala-2.13/classes/GetResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/week6_2/target/scala-2.13/classes/GetResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week6_2/target/scala-2.13/classes/Main$.class" beforeDir="false" afterPath="$PROJECT_DIR$/week6_2/target/scala-2.13/classes/Main$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week6_2/target/scala-2.13/classes/Main$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/week6_2/target/scala-2.13/classes/Main$delayedInit$body.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week6_2/target/scala-2.13/classes/MainCalc$$anonfun$receive$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/week6_2/target/scala-2.13/classes/MainCalc$$anonfun$receive$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week6_2/target/scala-2.13/classes/MainCalc.class" beforeDir="false" afterPath="$PROJECT_DIR$/week6_2/target/scala-2.13/classes/MainCalc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week6_2/target/scala-2.13/classes/SetRequest$.class" beforeDir="false" afterPath="$PROJECT_DIR$/week6_2/target/scala-2.13/classes/SetRequest$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week6_2/target/scala-2.13/classes/SetRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/week6_2/target/scala-2.13/classes/SetRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week6_2/target/scala-2.13/classes/Start$.class" beforeDir="false" afterPath="$PROJECT_DIR$/week6_2/target/scala-2.13/classes/Start$.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +31,9 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -26,7 +48,25 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/week6_2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="run" type="SbtRunConfiguration" factoryName="sbt Task" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="backend_akka" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="tasks" value="run" />
+      <option name="useSbtShell" value="false" />
+      <option name="vmparams" value="-Xms512M -Xmx1024M -Xss1M" />
+      <option name="workingDir" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -37,6 +77,11 @@
       <option name="presentableId" value="Default" />
       <updated>1615400614523</updated>
       <workItem from="1615400615659" duration="29000" />
+      <workItem from="1615808332303" duration="97000" />
+      <workItem from="1619376039970" duration="225000" />
+      <workItem from="1619376419851" duration="192000" />
+      <workItem from="1619376810176" duration="602000" />
+      <workItem from="1619377540954" duration="300000" />
     </task>
     <servers />
   </component>

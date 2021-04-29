@@ -6,6 +6,8 @@ import scala.concurrent.duration._
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.language.postfixOps
 
+import scala.io.StdIn.readLine
+
 case object Start
 case class SetRequest(expr: String)
 case class GetRequest(res: String)
@@ -22,11 +24,14 @@ class MainCalc extends Actor with ActorLogging {
 
         def receive = {
             case Start =>
-                calculatorActor ! SetRequest("1+5/3*5=")
+                val message = readLine()
+                log.info(s"Request: $message")
+                calculatorActor ! SetRequest(message)
                 val respF = calculatorActor ? GetRequest("Result")
                 respF pipeTo self
 
             case r: GetResponse =>
-                log.warning(s"Response: ${r.res}")
+                // log.warning(s"Response: ${r.res}")
+                log.info(s"Response: ${r.res}")
         }
 }

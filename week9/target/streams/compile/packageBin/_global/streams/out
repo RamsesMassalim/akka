@@ -1,0 +1,39 @@
+[debug] Packaging E:\Ramses\programming\backend_akka\week9\target\scala-2.13\week9_2.13-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	application.conf
+[debug] 	  E:\Ramses\programming\backend_akka\week9\target\scala-2.13\classes\application.conf
+[debug] 	Boot$.class
+[debug] 	  E:\Ramses\programming\backend_akka\week9\target\scala-2.13\classes\Boot$.class
+[debug] 	Boot$delayedInit$body.class
+[debug] 	  E:\Ramses\programming\backend_akka\week9\target\scala-2.13\classes\Boot$delayedInit$body.class
+[debug] 	Boot.class
+[debug] 	  E:\Ramses\programming\backend_akka\week9\target\scala-2.13\classes\Boot.class
+[debug] 	InMemoryTodoRepository$.class
+[debug] 	  E:\Ramses\programming\backend_akka\week9\target\scala-2.13\classes\InMemoryTodoRepository$.class
+[debug] 	InMemoryTodoRepository.class
+[debug] 	  E:\Ramses\programming\backend_akka\week9\target\scala-2.13\classes\InMemoryTodoRepository.class
+[debug] 	logback.xml
+[debug] 	  E:\Ramses\programming\backend_akka\week9\target\scala-2.13\classes\logback.xml
+[debug] 	MyRouter$anon$importedEncoder$macro$159$1$$anon$1.class
+[debug] 	  E:\Ramses\programming\backend_akka\week9\target\scala-2.13\classes\MyRouter$anon$importedEncoder$macro$159$1$$anon$1.class
+[debug] 	MyRouter$anon$importedEncoder$macro$159$1$$anon$2.class
+[debug] 	  E:\Ramses\programming\backend_akka\week9\target\scala-2.13\classes\MyRouter$anon$importedEncoder$macro$159$1$$anon$2.class
+[debug] 	MyRouter$anon$importedEncoder$macro$159$1$anon$macro$157$1.class
+[debug] 	  E:\Ramses\programming\backend_akka\week9\target\scala-2.13\classes\MyRouter$anon$importedEncoder$macro$159$1$anon$macro$157$1.class
+[debug] 	MyRouter$anon$importedEncoder$macro$159$1.class
+[debug] 	  E:\Ramses\programming\backend_akka\week9\target\scala-2.13\classes\MyRouter$anon$importedEncoder$macro$159$1.class
+[debug] 	MyRouter.class
+[debug] 	  E:\Ramses\programming\backend_akka\week9\target\scala-2.13\classes\MyRouter.class
+[debug] 	MyServer$.class
+[debug] 	  E:\Ramses\programming\backend_akka\week9\target\scala-2.13\classes\MyServer$.class
+[debug] 	MyServer.class
+[debug] 	  E:\Ramses\programming\backend_akka\week9\target\scala-2.13\classes\MyServer.class
+[debug] 	Router.class
+[debug] 	  E:\Ramses\programming\backend_akka\week9\target\scala-2.13\classes\Router.class
+[debug] 	Todo$.class
+[debug] 	  E:\Ramses\programming\backend_akka\week9\target\scala-2.13\classes\Todo$.class
+[debug] 	Todo.class
+[debug] 	  E:\Ramses\programming\backend_akka\week9\target\scala-2.13\classes\Todo.class
+[debug] 	TodoRepository.class
+[debug] 	  E:\Ramses\programming\backend_akka\week9\target\scala-2.13\classes\TodoRepository.class
+[debug] Done packaging.

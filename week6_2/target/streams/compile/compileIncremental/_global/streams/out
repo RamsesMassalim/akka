@@ -1,39 +1,50 @@
 [debug] [zinc] IncrementalCompile -----------
 [debug] IncrementalCompile.incrementalCompile
-[debug] previous = Stamps for: 4 products, 2 sources, 2 libraries
-[debug] current source = Set(${BASE}/src/main/scala/Calculator.scala, ${BASE}/src/main/scala/Main.scala)
-[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/Calculator.scala), unmodified = ...),Set(${BASE}/target/scala-2.13/classes/Calculator$.class, ${BASE}/target/scala-2.13/classes/Calculator.class),Set(),API Changes: Set())
+[debug] previous = Stamps for: 15 products, 3 sources, 2 libraries
+[debug] current source = Set(${BASE}/src/main/scala/Calculator.scala, ${BASE}/src/main/scala/Main.scala, ${BASE}/src/main/scala/MainCalc.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/MainCalc.scala), unmodified = ...),Set(${BASE}/target/scala-2.13/classes/MainCalc$$anonfun$receive$1.class),Set(),API Changes: Set())
 [debug] 
 [debug] Initial source changes:
 [debug] 	removed: Set()
 [debug] 	added: Set()
-[debug] 	modified: Set(${BASE}/src/main/scala/Calculator.scala)
-[debug] Invalidated products: Set(${BASE}/target/scala-2.13/classes/Calculator$.class, ${BASE}/target/scala-2.13/classes/Calculator.class)
+[debug] 	modified: Set(${BASE}/src/main/scala/MainCalc.scala)
+[debug] Invalidated products: Set(${BASE}/target/scala-2.13/classes/MainCalc$$anonfun$receive$1.class)
 [debug] External API changes: API Changes: Set()
 [debug] Modified binary dependencies: Set()
-[debug] Initial directly invalidated classes: Set(Calculator)
+[debug] Initial directly invalidated classes: Set(GetRequest, MainCalc, Start, SetRequest, GetResponse)
 [debug] Sources indirectly invalidated by:
-[debug] 	product: Set(${BASE}/src/main/scala/Calculator.scala)
+[debug] 	product: Set(${BASE}/src/main/scala/MainCalc.scala)
 [debug] 	binary dep: Set()
 [debug] 	external source: Set()
-[debug] All initially invalidated classes: Set(Calculator)
-[debug] All initially invalidated sources:Set(${BASE}/src/main/scala/Calculator.scala)
-[debug] Initial set of included nodes: Calculator
+[debug] All initially invalidated classes: Set(GetRequest, MainCalc, Start, SetRequest, GetResponse)
+[debug] All initially invalidated sources:Set(${BASE}/src/main/scala/MainCalc.scala)
+[debug] Initial set of included nodes: GetRequest, MainCalc, Start, SetRequest, GetResponse
 [debug] compilation cycle 1
 [info] compiling 1 Scala source to E:\Ramses\programming\backend_akka\week6_2\target\scala-2.13\classes ...
 [debug] Getting org.scala-sbt:compiler-bridge_2.13:1.4.4:compile for Scala 2.13.5
-[debug] [zinc] Running cached compiler 6db08efb for Scala compiler version 2.13.5
+[debug] [zinc] Running cached compiler 174065b3 for Scala compiler version 2.13.5
 [debug] [zinc] The Scala compiler is invoked with:
 [debug] 	-bootclasspath
 [debug] 	C:\Users\Ramses\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.5\scala-library-2.13.5.jar
 [debug] 	-classpath
 [debug] 	E:\Ramses\programming\backend_akka\week6_2\target\scala-2.13\classes;C:\Users\Ramses\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-actor-typed_2.13\2.6.13\akka-actor-typed_2.13-2.6.13.jar;C:\Users\Ramses\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-actor_2.13\2.6.13\akka-actor_2.13-2.6.13.jar;C:\Users\Ramses\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-slf4j_2.13\2.6.13\akka-slf4j_2.13-2.6.13.jar;C:\Users\Ramses\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Ramses\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\config\1.4.0\config-1.4.0.jar;C:\Users\Ramses\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-java8-compat_2.13\0.9.0\scala-java8-compat_2.13-0.9.0.jar
-[debug] Invalidating (transitively) by inheritance from Calculator...
-[debug] Initial set of included nodes: Calculator
-[debug] Invalidated by transitive inheritance dependency: Set(Calculator)
-[debug] Change NamesChange(Calculator,ModifiedNames(changes = UsedName(main,[Default]), UsedName($init$,[Default]), UsedName(args,[Default]), UsedName(delayedInit,[Default]), UsedName(Calculator,[Default]), UsedName(executionStart,[Default]))) invalidates 1 classes due to The Calculator has the following regular definitions changed:
-[debug] 	UsedName(main,[Default]), UsedName($init$,[Default]), UsedName(args,[Default]), UsedName(delayedInit,[Default]), UsedName(Calculator,[Default]), UsedName(executionStart,[Default]).
-[debug]   > by transitive inheritance: Set(Calculator)
+[debug] Invalidating (transitively) by inheritance from GetRequest...
+[debug] Initial set of included nodes: GetRequest
+[debug] Invalidated by transitive inheritance dependency: Set(GetRequest)
+[debug] None of the modified names appears in source file of Calculator. This dependency is not being considered for invalidation.
+[debug] Change NamesChange(GetRequest,ModifiedNames(changes = UsedName(finalize,[Default]))) invalidates 1 classes due to The GetRequest has the following regular definitions changed:
+[debug] 	UsedName(finalize,[Default]).
+[debug]   > by transitive inheritance: Set(GetRequest)
+[debug]   > 
+[debug]   > 
+[debug]         
+[debug] Invalidating (transitively) by inheritance from GetResponse...
+[debug] Initial set of included nodes: GetResponse
+[debug] Invalidated by transitive inheritance dependency: Set(GetResponse)
+[debug] None of the modified names appears in source file of Calculator. This dependency is not being considered for invalidation.
+[debug] Change NamesChange(GetResponse,ModifiedNames(changes = UsedName(finalize,[Default]))) invalidates 1 classes due to The GetResponse has the following regular definitions changed:
+[debug] 	UsedName(finalize,[Default]).
+[debug]   > by transitive inheritance: Set(GetResponse)
 [debug]   > 
 [debug]   > 
 [debug]         
@@ -43,5 +54,5 @@
 [debug] Final step, transitive dependencies:
 [debug] 	Set()
 [debug] No classes were invalidated.
-[debug] Scala compilation took 3.1155353 s
+[debug] Scala compilation took 3.4434084 s
 [info] done compiling

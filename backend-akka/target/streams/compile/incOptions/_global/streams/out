@@ -1,0 +1,38 @@
+[debug] Created transactional ClassFileManager with tempDir = E:\Ramses\programming\backend_akka\backend-akka\target\scala-2.13\classes.bak
+[debug] About to delete class files:
+[debug] We backup class files:
+[debug] Registering generated classes:
+[debug] 	Todo.class
+[debug] 	ApiError$.class
+[debug] 	MyRouter$anon$importedEncoder$macro$197$1$$anon$5.class
+[debug] 	MyRouter$anon$importedEncoder$macro$197$1.class
+[debug] 	Validator.class
+[debug] 	TodoRepository.class
+[debug] 	CreateTodoValidator$.class
+[debug] 	TodoDirectives.class
+[debug] 	InMemoryTodoRepository$.class
+[debug] 	MyRouter$anon$importedEncoder$macro$159$1.class
+[debug] 	MyRouter.class
+[debug] 	CreateTodo$.class
+[debug] 	MyRouter$anon$importedEncoder$macro$197$1$$anon$6.class
+[debug] 	MyRouter$anon$importedEncoder$macro$159$1$$anon$2.class
+[debug] 	MyRouter$anon$importedEncoder$macro$159$1$anon$macro$157$1.class
+[debug] 	MyRouter$anon$importedDecoder$macro$169$1$$anon$4.class
+[debug] 	MyRouter$anon$importedDecoder$macro$169$1$$anon$3.class
+[debug] 	ValidatorDirectives.class
+[debug] 	MyServer$.class
+[debug] 	MyRouter$anon$importedDecoder$macro$169$1$anon$macro$167$1.class
+[debug] 	ApiError.class
+[debug] 	CreateTodoValidator.class
+[debug] 	Todo$.class
+[debug] 	MyRouter$anon$importedEncoder$macro$197$1$anon$macro$195$1.class
+[debug] 	Boot.class
+[debug] 	InMemoryTodoRepository.class
+[debug] 	MyServer.class
+[debug] 	MyRouter$anon$importedDecoder$macro$169$1.class
+[debug] 	Router.class
+[debug] 	CreateTodo.class
+[debug] 	Boot$delayedInit$body.class
+[debug] 	MyRouter$anon$importedEncoder$macro$159$1$$anon$1.class
+[debug] 	Boot$.class
+[debug] Removing the temporary directory used for backing up class files: E:\Ramses\programming\backend_akka\backend-akka\target\scala-2.13\classes.bak

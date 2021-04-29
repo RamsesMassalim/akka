@@ -1,0 +1,30 @@
+[warn] [1] There are no exposed ports for your docker image
+[warn]  Configure the `dockerExposedPorts` or `dockerExposedUdpPorts` setting. E.g.
+[warn] 
+[warn]  // standard tcp ports
+[warn]  dockerExposedPorts ++= Seq(9000, 9001)
+[warn] 
+[warn]  // for udp ports
+[warn]  dockerExposedUdpPorts += 4444
+[warn]           
+[warn] [2] sbt-native-packager wasn't able to identify the docker version. Some features may not be enabled
+[warn] sbt-native packager tries to parse the `docker version` output. This can fail if
+[warn] 
+[warn]   - the output has changed:
+[warn]     $ docker version --format '{{.Server.APIVersion}}'
+[warn] 
+[warn]   - no `docker` executable is available
+[warn]     $ which docker
+[warn] 
+[warn]   - you have not the required privileges to run `docker`
+[warn] 
+[warn] You can display the parsed docker version in the sbt console with:
+[warn] 
+[warn]   sbt:your-project> show dockerApiVersion
+[warn] 
+[warn] As a last resort you could hard code the docker version, but it's not recommended!!
+[warn] 
+[warn]   import com.typesafe.sbt.packager.docker.DockerApiVersion
+[warn]   dockerApiVersion := Some(DockerApiVersion(1, 40))
+[warn]           
+[success] All package validations passed
