@@ -1,8 +1,0 @@
-[warn] E:\Ramses\programming\backend_akka\week9\src\main\scala\MyRouter.scala:25:29: match may not be exhaustive.
-[warn] It would fail on the following input: Success((x: Any forSome x not in GetResponse))
-[warn]           result onComplete {
-[warn]                             ^
-[warn] 1 deprecation (since 2.13.0)
-[warn] 3 deprecations (since 2.13.3)
-[warn] 4 deprecations in total; re-run with -deprecation for details
-[warn] four warnings found

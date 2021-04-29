@@ -12,7 +12,7 @@ import de.heikoseeberger.akkahttpcirce.FailFastCirceSupport._
 
 import scala.concurrent.duration.DurationInt
 
-class Router(calculator: ActorRef)(implicit system: ActorSystem[_],  ex:ExecutionContext) extends Directives {
+class Router(Calculator: ActorRef)(implicit system: ActorSystem[_],  ex:ExecutionContext) extends Directives {
   implicit val timeout = Timeout(1 seconds)
 
   def route: Route = concat(
