@@ -1,20 +1,65 @@
 [debug] [zinc] IncrementalCompile -----------
 [debug] IncrementalCompile.incrementalCompile
-[debug] previous = Stamps for: 0 products, 0 sources, 0 libraries
+[debug] previous = Stamps for: 33 products, 10 sources, 11 libraries
 [debug] current source = Set(${BASE}/src/main/scala/TodoRepository.scala, ${BASE}/src/main/scala/Validator.scala, ${BASE}/src/main/scala/Boot.scala, ${BASE}/src/main/scala/InMemoryTodoRepository.scala, ${BASE}/src/main/scala/MyServer.scala, ${BASE}/src/main/scala/MyRouter.scala, ${BASE}/src/main/scala/TodoDirectives.scala, ${BASE}/src/main/scala/ValidatorDirectives.scala, ${BASE}/src/main/scala/Todo.scala, ${BASE}/src/main/scala/ApiError.scala)
-[debug] > initialChanges = InitialChanges(Changes(added = Set(${BASE}/src/main/scala/InMemoryTodoRepository.scala, ${BASE}/src/main/scala/Boot.scala, ${BASE}/src/main/scala/Validator.scala, ${BASE}/src/main/scala/MyServer.scala, ${BASE}/src/main/scala/TodoDirectives.scala, ${BASE}/src/main/scala/Todo.scala, ${BASE}/src/main/scala/ApiError.scala, ${BASE}/src/main/scala/MyRouter.scala, ${BASE}/src/main/scala/ValidatorDirectives.scala, ${BASE}/src/main/scala/TodoRepository.scala), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())
-[debug] Full compilation, no sources in previous analysis.
-[debug] all 10 sources are invalidated
-[debug] Initial set of included nodes: 
-[debug] Recompiling all sources: number of invalidated sources > 50.0% of all sources
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/Validator.scala, ${BASE}/src/main/scala/MyServer.scala, ${BASE}/src/main/scala/ApiError.scala), unmodified = ...),Set(),Set(),API Changes: Set())
+[debug] 
+[debug] Initial source changes:
+[debug] 	removed: Set()
+[debug] 	added: Set()
+[debug] 	modified: Set(${BASE}/src/main/scala/Validator.scala, ${BASE}/src/main/scala/MyServer.scala, ${BASE}/src/main/scala/ApiError.scala)
+[debug] Invalidated products: Set()
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set(Validator, CreateTodoValidator, MyServer, ApiError)
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set()
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated classes: Set(Validator, CreateTodoValidator, MyServer, ApiError)
+[debug] All initially invalidated sources:Set(${BASE}/src/main/scala/Validator.scala, ${BASE}/src/main/scala/MyServer.scala, ${BASE}/src/main/scala/ApiError.scala)
+[debug] Initial set of included nodes: Validator, CreateTodoValidator, MyServer, ApiError
+[debug] Including CreateTodoValidator by Validator
 [debug] compilation cycle 1
-[info] compiling 10 Scala sources to E:\Ramses\programming\backend_akka\backend-akka\target\scala-2.13\classes ...
+[info] compiling 3 Scala sources to E:\Ramses\programming\backend_akka\backend-akka\target\scala-2.13\classes ...
 [debug] Getting org.scala-sbt:compiler-bridge_2.13:1.5.1:compile for Scala 2.13.5
-[debug] [zinc] Running cached compiler 1283a99f for Scala compiler version 2.13.5
+[debug] [zinc] Running cached compiler 69ae87b4 for Scala compiler version 2.13.5
 [debug] [zinc] The Scala compiler is invoked with:
 [debug] 	-bootclasspath
 [debug] 	C:\Users\Ramses\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.5\scala-library-2.13.5.jar
 [debug] 	-classpath
 [debug] 	E:\Ramses\programming\backend_akka\backend-akka\target\scala-2.13\classes;C:\Users\Ramses\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-actor-typed_2.13\2.6.8\akka-actor-typed_2.13-2.6.8.jar;C:\Users\Ramses\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-stream_2.13\2.6.8\akka-stream_2.13-2.6.8.jar;C:\Users\Ramses\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-http_2.13\10.2.4\akka-http_2.13-10.2.4.jar;C:\Users\Ramses\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\circe\circe-core_2.13\0.13.0\circe-core_2.13-0.13.0.jar;C:\Users\Ramses\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\circe\circe-generic_2.13\0.12.3\circe-generic_2.13-0.12.3.jar;C:\Users\Ramses\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\circe\circe-parser_2.13\0.13.0\circe-parser_2.13-0.13.0.jar;C:\Users\Ramses\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\de\heikoseeberger\akka-http-circe_2.13\1.36.0\akka-http-circe_2.13-1.36.0.jar;C:\Users\Ramses\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\Ramses\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-actor_2.13\2.6.8\akka-actor_2.13-2.6.8.jar;C:\Users\Ramses\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-slf4j_2.13\2.6.8\akka-slf4j_2.13-2.6.8.jar;C:\Users\Ramses\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Ramses\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-protobuf-v3_2.13\2.6.8\akka-protobuf-v3_2.13-2.6.8.jar;C:\Users\Ramses\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Ramses\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\typesafe\ssl-config-core_2.13\0.4.1\ssl-config-core_2.13-0.4.1.jar;C:\Users\Ramses\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-http-core_2.13\10.2.4\akka-http-core_2.13-10.2.4.jar;C:\Users\Ramses\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\circe\circe-numbers_2.13\0.13.0\circe-numbers_2.13-0.13.0.jar;C:\Users\Ramses\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\typelevel\cats-core_2.13\2.1.0\cats-core_2.13-2.1.0.jar;C:\Users\Ramses\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\chuusai\shapeless_2.13\2.3.3\shapeless_2.13-2.3.3.jar;C:\Users\Ramses\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\circe\circe-jawn_2.13\0.13.0\circe-jawn_2.13-0.13.0.jar;C:\Users\Ramses\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\Ramses\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\typesafe\config\1.4.0\config-1.4.0.jar;C:\Users\Ramses\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-java8-compat_2.13\0.9.0\scala-java8-compat_2.13-0.9.0.jar;C:\Users\Ramses\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.13\1.1.2\scala-parser-combinators_2.13-1.1.2.jar;C:\Users\Ramses\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-parsing_2.13\10.2.4\akka-parsing_2.13-10.2.4.jar;C:\Users\Ramses\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\twitter\hpack\1.0.2\hpack-1.0.2.jar;C:\Users\Ramses\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\typelevel\cats-macros_2.13\2.1.0\cats-macros_2.13-2.1.0.jar;C:\Users\Ramses\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\typelevel\cats-kernel_2.13\2.1.0\cats-kernel_2.13-2.1.0.jar;C:\Users\Ramses\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\typelevel\jawn-parser_2.13\1.0.0\jawn-parser_2.13-1.0.0.jar
-[debug] Scala compilation took 15.4076869 s
+[debug] Invalidating (transitively) by inheritance from MyServer...
+[debug] Initial set of included nodes: MyServer
+[debug] Invalidated by transitive inheritance dependency: Set(MyServer)
+[debug] None of the modified names appears in source file of Boot. This dependency is not being considered for invalidation.
+[debug] Change NamesChange(MyServer,ModifiedNames(changes = UsedName(finalize,[Default]))) invalidates 1 classes due to The MyServer has the following regular definitions changed:
+[debug] 	UsedName(finalize,[Default]).
+[debug]   > by transitive inheritance: Set(MyServer)
+[debug]   > 
+[debug]   > 
+[debug]         
+[debug] Invalidating (transitively) by inheritance from ApiError...
+[debug] Initial set of included nodes: ApiError
+[debug] Invalidated by transitive inheritance dependency: Set(ApiError)
+[debug] None of the modified names appears in source file of Validator. This dependency is not being considered for invalidation.
+[debug] The following modified names cause invalidation of CreateTodoValidator: Set(UsedName(emptyDescription,[Default]))
+[debug] None of the modified names appears in source file of ValidatorDirectives. This dependency is not being considered for invalidation.
+[debug] None of the modified names appears in source file of TodoDirectives. This dependency is not being considered for invalidation.
+[debug] Change NamesChange(ApiError,ModifiedNames(changes = UsedName(emptyDescription,[Default]), UsedName(emptyDuplicateTitle,[Default]), UsedName(finalize,[Default]))) invalidates 2 classes due to The ApiError has the following regular definitions changed:
+[debug] 	UsedName(emptyDescription,[Default]), UsedName(emptyDuplicateTitle,[Default]), UsedName(finalize,[Default]).
+[debug]   > by transitive inheritance: Set(ApiError)
+[debug]   > 
+[debug]   > by member reference: Set(CreateTodoValidator)
+[debug]         
+[debug] New invalidations:
+[debug] 	CreateTodoValidator
+[debug] Initial set of included nodes: CreateTodoValidator
+[debug] Including MyRouter by CreateTodoValidator
+[debug] Including Boot by MyRouter
+[debug] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] Final step, transitive dependencies:
+[debug] 	Set(CreateTodoValidator)
+[debug] No classes were invalidated.
+[debug] Scala compilation took 8.0532612 s
 [info] done compiling

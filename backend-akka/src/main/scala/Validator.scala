@@ -5,6 +5,7 @@ trait Validator[T] {
 object CreateTodoValidator extends Validator[CreateTodo] {
   def validate(createTodo: CreateTodo): Option[ApiError] = {
     if (createTodo.title.isEmpty) Some(ApiError.emptyTitleField)
+    else if (createTodo.description.isEmpty) Some(ApiError.emptyDescription)
     else None
   }
 }

@@ -1,0 +1,115 @@
+[debug] Executing Native docker build --force-rm -t backend-akka:0.1 .
+[debug] Working directory E:\Ramses\programming\backend_akka\backend-akka\target\docker\stage
+[error] #2 [internal] load .dockerignore
+[error] #2 sha256:22c327587d618307c51fd2caf4f8b05d0c2dba4c6e6ed9624c6393d9102eb196
+[error] #2 transferring context:
+[error] #2 transferring context: 2B done
+[error] #2 ...
+[error] #1 [internal] load build definition from Dockerfile
+[error] #1 sha256:fab4d09c21b4a0a4d861420c644b76d552f5b08fea23283b2e7cb50a8933ba44
+[error] #1 transferring dockerfile: 1.02kB 0.0s done
+[error] #1 DONE 0.5s
+[error] #2 [internal] load .dockerignore
+[error] #2 sha256:22c327587d618307c51fd2caf4f8b05d0c2dba4c6e6ed9624c6393d9102eb196
+[error] #2 DONE 0.6s
+[error] #3 [internal] load metadata for docker.io/library/openjdk:8-jre-alpine
+[error] #3 sha256:54c6f6c810fe8adaea295f024fab13dc1a9a70e363a76f4d0bfb6e7ae191ebae
+[error] #3 DONE 4.5s
+[error] #8 [internal] load build context
+[error] #8 sha256:8a1b06e4cdb1c5134d9bb38852e8ae9563feff2ca2f864e99c0e3eeae9c2cc21
+[error] #8 DONE 0.0s
+[error] #4 [stage0 1/7] FROM docker.io/library/openjdk:8-jre-alpine@sha256:f362b165b870ef129cbe730f29065ff37399c0aa8bcab3e44b51c302938c9193
+[error] #4 sha256:0fa9d77ffba4c0cfb36bec29d2e0b02d36226b626b50f29355d5a97517be8e0b
+[error] #4 resolve docker.io/library/openjdk:8-jre-alpine@sha256:f362b165b870ef129cbe730f29065ff37399c0aa8bcab3e44b51c302938c9193
+[error] #4 resolve docker.io/library/openjdk:8-jre-alpine@sha256:f362b165b870ef129cbe730f29065ff37399c0aa8bcab3e44b51c302938c9193 0.2s done
+[error] #4 sha256:f362b165b870ef129cbe730f29065ff37399c0aa8bcab3e44b51c302938c9193 1.64kB / 1.64kB done
+[error] #4 sha256:b2ad93b079b1495488cc01375de799c402d45086015a120c105ea00e1be0fd52 947B / 947B done
+[error] #4 sha256:f7a292bbb70c4ce57f7704cc03eb09e299de9da19013b084f138154421918cb4 3.42kB / 3.42kB done
+[error] #4 sha256:b6abafe80f63b02535fc111df2ed6b3c728469679ab654e03e482b6f347c9639 0B / 54.94MB 0.4s
+[error] #4 sha256:e7c96db7181be991f19a9fb6975cdbbd73c65f4a2681348e63a141a2192a5f10 0B / 2.76MB 0.9s
+[error] #4 sha256:f910a506b6cb1dbec766725d70356f695ae2bf2bea6224dbe8c7c6ad4f3664a2 0B / 238B 1.1s
+[error] #4 sha256:b6abafe80f63b02535fc111df2ed6b3c728469679ab654e03e482b6f347c9639 3.15MB / 54.94MB 1.7s
+[error] #4 sha256:f910a506b6cb1dbec766725d70356f695ae2bf2bea6224dbe8c7c6ad4f3664a2 238B / 238B 1.7s
+[error] #4 sha256:f910a506b6cb1dbec766725d70356f695ae2bf2bea6224dbe8c7c6ad4f3664a2 238B / 238B 1.8s done
+[error] #4 ...
+[error] #8 [internal] load build context
+[error] #8 sha256:8a1b06e4cdb1c5134d9bb38852e8ae9563feff2ca2f864e99c0e3eeae9c2cc21
+[error] #8 transferring context: 39.70MB 2.2s done
+[error] #8 DONE 2.7s
+[error] #4 [stage0 1/7] FROM docker.io/library/openjdk:8-jre-alpine@sha256:f362b165b870ef129cbe730f29065ff37399c0aa8bcab3e44b51c302938c9193
+[error] #4 sha256:0fa9d77ffba4c0cfb36bec29d2e0b02d36226b626b50f29355d5a97517be8e0b
+[error] #4 sha256:b6abafe80f63b02535fc111df2ed6b3c728469679ab654e03e482b6f347c9639 6.29MB / 54.94MB 2.1s
+[error] #4 sha256:b6abafe80f63b02535fc111df2ed6b3c728469679ab654e03e482b6f347c9639 10.49MB / 54.94MB 2.7s
+[error] #4 sha256:e7c96db7181be991f19a9fb6975cdbbd73c65f4a2681348e63a141a2192a5f10 1.05MB / 2.76MB 2.7s
+[error] #4 sha256:b6abafe80f63b02535fc111df2ed6b3c728469679ab654e03e482b6f347c9639 13.63MB / 54.94MB 3.3s
+[error] #4 sha256:e7c96db7181be991f19a9fb6975cdbbd73c65f4a2681348e63a141a2192a5f10 2.10MB / 2.76MB 3.4s
+[error] #4 sha256:b6abafe80f63b02535fc111df2ed6b3c728469679ab654e03e482b6f347c9639 17.83MB / 54.94MB 3.9s
+[error] #4 sha256:e7c96db7181be991f19a9fb6975cdbbd73c65f4a2681348e63a141a2192a5f10 2.76MB / 2.76MB 3.8s
+[error] #4 sha256:e7c96db7181be991f19a9fb6975cdbbd73c65f4a2681348e63a141a2192a5f10 2.76MB / 2.76MB 3.8s done
+[error] #4 extracting sha256:e7c96db7181be991f19a9fb6975cdbbd73c65f4a2681348e63a141a2192a5f10
+[error] #4 extracting sha256:e7c96db7181be991f19a9fb6975cdbbd73c65f4a2681348e63a141a2192a5f10 0.3s done
+[error] #4 sha256:b6abafe80f63b02535fc111df2ed6b3c728469679ab654e03e482b6f347c9639 20.97MB / 54.94MB 4.4s
+[error] #4 extracting sha256:f910a506b6cb1dbec766725d70356f695ae2bf2bea6224dbe8c7c6ad4f3664a2 done
+[error] #4 sha256:b6abafe80f63b02535fc111df2ed6b3c728469679ab654e03e482b6f347c9639 24.12MB / 54.94MB 4.9s
+[error] #4 sha256:b6abafe80f63b02535fc111df2ed6b3c728469679ab654e03e482b6f347c9639 27.26MB / 54.94MB 5.4s
+[error] #4 sha256:b6abafe80f63b02535fc111df2ed6b3c728469679ab654e03e482b6f347c9639 30.41MB / 54.94MB 5.9s
+[error] #4 sha256:b6abafe80f63b02535fc111df2ed6b3c728469679ab654e03e482b6f347c9639 33.55MB / 54.94MB 6.3s
+[error] #4 sha256:b6abafe80f63b02535fc111df2ed6b3c728469679ab654e03e482b6f347c9639 36.70MB / 54.94MB 6.7s
+[error] #4 sha256:b6abafe80f63b02535fc111df2ed6b3c728469679ab654e03e482b6f347c9639 39.85MB / 54.94MB 7.1s
+[error] #4 sha256:b6abafe80f63b02535fc111df2ed6b3c728469679ab654e03e482b6f347c9639 42.99MB / 54.94MB 7.5s
+[error] #4 sha256:b6abafe80f63b02535fc111df2ed6b3c728469679ab654e03e482b6f347c9639 47.19MB / 54.94MB 8.0s
+[error] #4 sha256:b6abafe80f63b02535fc111df2ed6b3c728469679ab654e03e482b6f347c9639 50.33MB / 54.94MB 8.4s
+[error] #4 sha256:b6abafe80f63b02535fc111df2ed6b3c728469679ab654e03e482b6f347c9639 53.48MB / 54.94MB 9.0s
+[error] #4 sha256:b6abafe80f63b02535fc111df2ed6b3c728469679ab654e03e482b6f347c9639 54.94MB / 54.94MB 9.6s done
+[error] #4 extracting sha256:b6abafe80f63b02535fc111df2ed6b3c728469679ab654e03e482b6f347c9639
+[error] #4 extracting sha256:b6abafe80f63b02535fc111df2ed6b3c728469679ab654e03e482b6f347c9639 1.8s done
+[error] #4 DONE 14.7s
+[error] #5 [mainstage 2/5] RUN id -u demiourgos728 1>/dev/null 2>&1 || (( getent group 0 1>/dev/null 2>&1 || ( type groupadd 1>/dev/null 2>&1 && groupadd -g 0 root || addgroup -g 0 -S root )) && ( type useradd 1>/dev/null 2>&1 && useradd --system --create-home --uid 1001 --gid 0 demiourgos728 || adduser -S -u 1001 -G root demiourgos728 ))
+[error] #5 sha256:1e0169606f1b8dea4ac1d3a9760d1bf13a8328c6919eaa2f53fc1948ccd4f2e9
+[error] #5 ...
+[error] #7 [stage0 2/7] WORKDIR /opt/docker
+[error] #7 sha256:f3f59e8ad8ac9263708c740a121756ee62429c19b6156e19fe50bd0cc8b8f77e
+[error] #7 DONE 4.6s
+[error] #9 [stage0 3/7] COPY 1/opt /1/opt
+[error] #9 sha256:f0e4c63b5c10df2ce2f4c51b4f364de9c5e7ef6b89776c7f56ecc97019fb0246
+[error] #9 ...
+[error] #5 [mainstage 2/5] RUN id -u demiourgos728 1>/dev/null 2>&1 || (( getent group 0 1>/dev/null 2>&1 || ( type groupadd 1>/dev/null 2>&1 && groupadd -g 0 root || addgroup -g 0 -S root )) && ( type useradd 1>/dev/null 2>&1 && useradd --system --create-home --uid 1001 --gid 0 demiourgos728 || adduser -S -u 1001 -G root demiourgos728 ))
+[error] #5 sha256:1e0169606f1b8dea4ac1d3a9760d1bf13a8328c6919eaa2f53fc1948ccd4f2e9
+[error] #5 DONE 7.4s
+[error] #9 [stage0 3/7] COPY 1/opt /1/opt
+[error] #9 sha256:f0e4c63b5c10df2ce2f4c51b4f364de9c5e7ef6b89776c7f56ecc97019fb0246
+[error] #9 DONE 4.7s
+[error] #6 [mainstage 3/5] WORKDIR /opt/docker
+[error] #6 sha256:e42ae32adf410bcc26098896e8ec8be99d6bc550dd1f311918a443e2830b3eea
+[error] #6 DONE 4.9s
+[error] #10 [stage0 4/7] COPY 2/opt /2/opt
+[error] #10 sha256:876d3e1337b67f4cb7007ef76ab4c0e6d8a39a277a6d6580d2be67641bec3dfd
+[error] #10 DONE 4.3s
+[error] #11 [stage0 5/7] RUN ["chmod", "-R", "u=rX,g=rX", "/1/opt/docker"]
+[error] #11 sha256:4c5b073afc154f57c57e17543813ad95b888d103b3eea914e19050353530bca6
+[error] #11 DONE 6.4s
+[error] #12 [stage0 6/7] RUN ["chmod", "-R", "u=rX,g=rX", "/2/opt/docker"]
+[error] #12 sha256:26e368d870daf6da17570f5794bd1ae0fa4a36c54a93e54aaf126f18c49ac217
+[error] #12 DONE 2.4s
+[error] #13 [stage0 7/7] RUN ["chmod", "u+x,g+x", "/1/opt/docker/bin/backend-akka"]
+[error] #13 sha256:a9d07359a75bee7d2f11789f6abdfe0e0a8a32efa7b9999a949915ecdbac8baf
+[error] #13 DONE 2.4s
+[error] #14 [mainstage 4/5] COPY --from=stage0 --chown=demiourgos728:root /1/opt/docker /opt/docker
+[error] #14 sha256:eb234c7fc4e1467ec21f22c419dbd712313ba0f898cd5a1deea6b748ae96ddce
+[error] #14 DONE 3.0s
+[error] #15 [mainstage 5/5] COPY --from=stage0 --chown=demiourgos728:root /2/opt/docker /opt/docker
+[error] #15 sha256:a1ca534083d86879dd4014be804c648e008e96cd1f01e203b95d1654fd661243
+[error] #15 DONE 1.2s
+[error] #16 exporting to image
+[error] #16 sha256:e8c613e07b0b7ff33893b694f7759a10d42e180f2b4dc349fb57dc6b71dcab00
+[error] #16 exporting layers
+[error] #16 exporting layers 2.7s done
+[error] #16 writing image sha256:7332b545829b547a2be0f7cf327bc2cc8dbfb02facbf0a27d8c6253242a82acf
+[error] #16 writing image sha256:7332b545829b547a2be0f7cf327bc2cc8dbfb02facbf0a27d8c6253242a82acf 0.2s done
+[error] #16 naming to docker.io/library/backend-akka:0.1
+[error] #16 naming to docker.io/library/backend-akka:0.1 0.4s done
+[error] #16 DONE 3.5s
+[info] Use 'docker scan' to run Snyk tests against images to find vulnerabilities and learn how to fix them
+[info] Removing intermediate image(s) (labeled "snp-multi-stage-id=42d687cf-1bae-40a5-9cc7-4075c772fa2d") 
+[info] Total reclaimed space: 0B
+[info] Built image backend-akka with tags [0.1]

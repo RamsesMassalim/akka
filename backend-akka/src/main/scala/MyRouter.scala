@@ -34,7 +34,19 @@ class MyRouter(todoRepository: TodoRepository)(implicit system: ActorSystem[_], 
           post {
             entity(as[CreateTodo]) { createTodo =>
               validateWith(CreateTodoValidator)(createTodo){
-                handleWithGeneric(todoRepository.create(createTodo)){todo => complete(todo)}
+                handleWithGeneric(todoRepository.create(createTodo)){
+                  todo =>
+                    val seq = todoRepository.all()
+                    for (i <- seq) {
+                      for (j <- i) {
+                        if (j.title.equals(createTodo.title)) {
+                          Some(ApiError.duplicateTitle)
+                          complete("failure")
+                        }
+                      }
+                    }
+                    complete(todo)
+                }
               }
             }
           }

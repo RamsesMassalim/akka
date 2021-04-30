@@ -4,7 +4,7 @@ enablePlugins(JavaAppPackaging, AshScriptPlugin)
 
 
 dockerBaseImage := "openjdk:8-jre-alpine"
-// packageName in Docker := "backend-akka"
+packageName in Docker := "backend-akka"
 
 name := "backend-akka"
 
@@ -39,4 +39,4 @@ dockerCommands := dockerCommands.value.map {
   case other =>
     other
 }
-//./deploy.sh backend-akka 6e32eca4-87a3-4458-a79f-86dac5cef598
+//./deploy.sh backend-akka backend-akka:0.1 6e32eca4-87a3-4458-a79f-86dac5cef598

@@ -7,4 +7,6 @@ object ApiError {
 
   val generic: ApiError = new ApiError(StatusCodes.InternalServerError, "Unknown error.")
   val emptyTitleField: ApiError = new ApiError(StatusCodes.BadRequest, message = "Empty title.")
+  val emptyDescription: ApiError = new ApiError(StatusCodes.BadRequest, message = "Empty description.")
+  val duplicateTitle: ApiError = new ApiError(StatusCodes.BadRequest, message = "Duplicate Title.")
 }
